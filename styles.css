@@ -193,3 +193,8 @@ a:hover, a:active {
     padding: 1em 0 1em 0;
     transition: all 0.35s ease-in-out;
 }
+
+.thanks {
+    display: flex;
+    justify-content: center;
+}
