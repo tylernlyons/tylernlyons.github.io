@@ -6,6 +6,8 @@ body {
     font-style: normal;
     font-size: larger;
     color: #03045e;
+    width: auto;
+    height: auto;
 }
 
 nav { 
