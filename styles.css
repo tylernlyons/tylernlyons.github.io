@@ -1,0 +1,195 @@
+body {
+    margin: 1em;
+    background-color:#caf0f8;
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    color: #03045e;
+}
+
+nav { 
+    background-color: #90e0ef;
+    display: flex;
+    justify-content: space-between;
+    border: solid 0.5em #00b4d8;
+    padding: 0 2em 0 2em;
+}
+
+.sect {
+    outline: thick double #00b4d8;
+    margin: 1em 0 0;
+    padding: 1em;
+}
+
+footer {
+    display: flex;
+    justify-content:center;
+    margin: 3em 0 0 0; 
+    padding: 1em;
+    background-color:#90e0ef;
+    font-size: larger;
+}
+
+.splash {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    color: #0077b6;
+  }
+
+.headshot {
+    border-radius: 75%;
+    border: solid #00b4d8;
+    height: 10em;
+    width: 10em;
+}
+
+.address {
+    font-family: "Bakersville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: groove;
+    column-rule-style: groove;
+    border-width: 1em;
+    border-color: #00b4d8;
+    text-align: center;
+}
+
+.tagline {
+    font-family: "Geist", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-style: groove;
+    column-rule-style: groove;
+    border-width: 1em;
+    border-color: #00b4d8;
+    text-align: center;
+}
+
+hr {
+    border-style: inset solid outset solid;
+    border-width: 1em;
+    border-color: #00b4d8;
+}
+
+h2 {
+
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: #0077b6;
+}
+
+.education {
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+ul {
+    list-style: circle;
+}
+
+dl {
+    display: grid;
+}
+
+dt {
+    padding: 1em 0 0 0;
+}
+
+a:link, a:visited {
+    color: #0077b6 ;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #00b4d8;
+}
+
+.three-col {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card {
+    display: flex;
+    box-shadow: 0 16px 32px 0 #03045e;
+    padding: 1em;
+    margin: 1em;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    outline: thick double #00b4d8;
+    border-radius: 1em;
+    background-color: #90e0ef;
+    font-size: larger;
+}
+
+.card:hover {
+    outline: thick dotted ;
+    transform: scale(1.2);
+    position: relative;
+    transition: all 0.35s ease-in-out;     
+    cursor: zoom-in;
+    
+}
+
+#one {
+    transform-origin: left;
+}
+#two {
+    transform-origin: top;
+}
+
+#three {
+    transform-origin: right;
+}
+
+.one-col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info {
+    outline: thick solid #00b4d8 ;
+    margin: 1em;
+}
+
+.submit {
+    box-shadow: 5px 5px 5px 0 #03045e;
+    outline: thin solid #00b4d8;
+
+}
+
+.submit:hover {
+    transform: scale(1.2);
+}
+
+.formed {
+    background-color: #90e0ef;
+    padding: 1em 0 1em 0;
+}
+
+.continue:hover {
+    background-color: #03045e;
+    padding: 1em 0 1em 0;
+    transition: all 0.35s ease-in-out;
+}
