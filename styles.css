@@ -1,26 +1,26 @@
 body {
     margin: 1em;
-    background-color:#caf0f8;
+    background-color: #E5E1DA;
     font-family: "Faculty Glyphic", serif;
     font-weight: 400;
     font-style: normal;
     font-size: larger;
-    color: #03045e;
+    color: #2973B2;
     width: auto;
     height: auto;
 }
 
 nav { 
-    background-color: #90e0ef;
+    background-color: #CDC7BE;
     display: flex;
     justify-content: space-between;
-    border: solid 0.5em #00b4d8;
+    border: solid 0.5em #D9EAFD;
     padding: 0 2em 0 2em;
 }
 
 .sect {
-    outline: thick double #00b4d8;
-    margin: 1em 0 0;
+    outline: thick double #FBF9F1;
+    margin: 2em .5em 0;
     padding: 1em;
 }
 
@@ -29,7 +29,7 @@ footer {
     justify-content:center;
     margin: 3em 0 0 0; 
     padding: 1em;
-    background-color:#90e0ef;
+    background-color:#CDC7BE;
     font-size: larger;
 }
 
@@ -47,12 +47,12 @@ h1 {
     font-size: xx-large;
     display: flex;
     justify-content: center;
-    color: #0077b6;
+    color: #213555;
   }
 
 .headshot {
     border-radius: 75%;
-    border: solid #00b4d8;
+    border: solid #D9EAFD;
     height: 10em;
     width: 10em;
 }
@@ -64,7 +64,7 @@ h1 {
     border-style: groove;
     column-rule-style: groove;
     border-width: 1em;
-    border-color: #00b4d8;
+    border-color: #D9EAFD;
     text-align: center;
 }
 
@@ -75,14 +75,15 @@ h1 {
     border-style: groove;
     column-rule-style: groove;
     border-width: 1em;
-    border-color: #00b4d8;
+    border-color: #D9EAFD;
     text-align: center;
 }
 
 hr {
     border-style: inset solid outset solid;
-    border-width: 1em;
-    border-color: #00b4d8;
+    border-width: .25em;
+    border-radius: 75%;
+    border-color: #D9EAFD;
 }
 
 h2 {
@@ -92,7 +93,7 @@ h2 {
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;
-    color: #0077b6;
+    color: #213555;
 }
 
 .education {
@@ -115,12 +116,12 @@ dt {
 }
 
 a:link, a:visited {
-    color: #0077b6 ;
+    color: #2973B2 ;
     text-decoration: none;
 }
 
 a:hover, a:active {
-    color: #00b4d8;
+    color: #D9EAFD;
 }
 
 .three-col {
@@ -130,15 +131,15 @@ a:hover, a:active {
 
 .card {
     display: flex;
-    box-shadow: 0 16px 32px 0 #03045e;
+    box-shadow: 0 16px 32px 0 #6C737E;
     padding: 1em;
     margin: 1em;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    outline: thick double #00b4d8;
+    outline: thick double #FBF9F1;
     border-radius: 1em;
-    background-color: #90e0ef;
+    background-color: #CDC7BE;
     font-size: larger;
 }
 
@@ -146,7 +147,7 @@ a:hover, a:active {
     outline: thick dotted ;
     transform: scale(1.2);
     position: relative;
-    transition: all 0.35s ease-in-out;     
+    transition: all 0.5s ease-in-out;     
     cursor: zoom-in;
     
 }
@@ -171,13 +172,13 @@ a:hover, a:active {
 }
 
 .info {
-    outline: thick solid #00b4d8 ;
+    outline: thick solid #FBF9F1 ;
     margin: 1em;
 }
 
 .submit {
-    box-shadow: 5px 5px 5px 0 #03045e;
-    outline: thin solid #00b4d8;
+    box-shadow: 5px 5px 5px 0 #6C737E;
+    outline: thin solid #FBF9F1;
 
 }
 
@@ -186,14 +187,14 @@ a:hover, a:active {
 }
 
 .formed {
-    background-color: #90e0ef;
+    background-color: #CDC7BE;
     padding: 1em 0 1em 0;
 }
 
 .continue:hover {
-    background-color: #03045e;
+    background-color: #6C737E;
     padding: 1em 0 1em 0;
-    transition: all 0.35s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .thanks {
