@@ -126,7 +126,7 @@ a:hover, a:active {
 
 .three-col {
     display: grid;
-    grid-auto-flow: column;
+    grid-auto-columns: repeat(3, 1fr);
 }
 
 .card {
